@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_toolbar"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/can_le_text_detail"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/logo_sr1"
+        android:layout_toLeftOf="@+id/title_toolbar"
+        />
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="@dimen/can_le_text_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_medium"
+        android:textStyle="bold" />
+</LinearLayout>

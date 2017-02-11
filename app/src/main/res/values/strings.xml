@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SimpleScreenRecorder</string>
+    <string name="video">Video</string>
+    <string name="quality">Recording Quality</string>
+    <string name="quality_detail">Select quality of recording. Higher quality means larger video and more space used</string>
+    <string name="sound">Recording Sound</string>
+    <string name="sound_detail">Record sound with video. Take a bit longer to create final video</string>
+    <string name="language">Language</string>
+    <string name="language_detail">Default</string>
+    <string name="advanced">Advanced</string>
+    <string name="uninstall">Uninstall\nDelete system files installed by this application and uninstall SimpleScreenRecorder</string>
+    <string name="stored_video">Stored video</string>
+    <string name="settings">Settings</string>
+    <string name="stop_record">Stop record</string>
+    <string name="logo_text">SCREEN RECORDER</string>
+    <string name="thong_bao_is_running">is running</string>
+    <string name="thong_bao_has_stop">has stopped</string>
+</resources>
